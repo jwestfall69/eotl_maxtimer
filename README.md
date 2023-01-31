@@ -14,3 +14,7 @@ The Plugin will only check for this when time is added to the timer (ie when a p
 Max time the round timer can be in seconds.  A value that is <= 0 will disable the plugin.
 
 Default: 600
+
+**eotl_maxtimer_time_cashworks_cp3 [seconds]**
+
+This is a map specific hack for pl_cashworks* for capture point 3 (before the bridge).  This value will override eotl_maxtimer_time.
