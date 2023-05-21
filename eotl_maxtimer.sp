@@ -24,8 +24,8 @@ public void OnPluginStart() {
     LogMessage("version %s starting", PLUGIN_VERSION);
     HookEvent("teamplay_timer_time_added", EventTimeAdded);
     HookEvent("teamplay_round_start", EventRoundStart, EventHookMode_PostNoCopy);
-    g_cvMaxTime = CreateConVar("eotl_maxtimer_time", "600", "Max time in seconds the round timer can be", FCVAR_NOTIFY);
-    g_cvMaxTimeCashworksCP3 = CreateConVar("eotl_maxtimer_time_cashworks_cp3", "310", "Max time in seconds the round timer can be for pl_cashworks* capture point B3", FCVAR_NOTIFY);
+    g_cvMaxTime = CreateConVar("eotl_maxtimer_time", "315", "Max time in seconds the round timer can be", FCVAR_NOTIFY);
+    g_cvMaxTimeCashworksCP3 = CreateConVar("eotl_maxtimer_time_cashworks_cp3", "315", "Max time in seconds the round timer can be for pl_cashworks* capture point B3", FCVAR_NOTIFY);
 }
 
 public void OnMapStart() {
