@@ -6,6 +6,10 @@ This plugin is targeted towards playload maps and allows setting the maximum tim
 
 The plugin will do its check whenever time is added to the timer (ie when a point is captured).
 
+### Config File (addons/sourcemod/configs/eotl_maxtimer.cfg)
+
+This config file allows having overrides for specific capture point on a given map. Please refer to the config file for more detail on this.
+
 ### ConVars
 <hr>
 
@@ -15,8 +19,8 @@ Max time the round timer can be in seconds.  A value that is <= 0 will disable t
 
 Default: 315
 
-**eotl_maxtimer_time_cashworks_cp3 [seconds]**
+**eotl_maxtimer_debug [0/1]**
 
-pl_cashworks* has some badly placed capture point locations relative to choke locations, which makes having the same maxtimer for all sections of the map not work well.  This convar allows setting a specific maxtimer for capture point 3 (before the bridge).  Note: we normally make eotl_maxtimer_timer be 375 on pl_cashworks, and leave this convar the default.
+Disable/Enable debug logging
 
-Default: 315
+Default: 0 (disabled)
